@@ -71,8 +71,7 @@ class ConcreteComponent(Component):
 
 def main():
     concrete_component = ConcreteComponent()
-    concrete_decorator_a = ConcreteDecoratorA(concrete_component)
-    concrete_decorator_b = ConcreteDecoratorA(concrete_decorator_a)
+    concrete_decorator_b = ConcreteDecoratorB(ConcreteDecoratorA(concrete_component))
     concrete_decorator_b.operation()
 
 
