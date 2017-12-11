@@ -4,9 +4,7 @@ Play design patterns
 
 Behavorial patterns
 
-	This design patterns is all about Class's objects communication.
-	Behavorial patterns are those patterns that are most specifically
-	concerned with communications between objects.
+	In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
 	Chain of responsability: 
 		A way of passing a request between a chain of objects.
@@ -47,10 +45,7 @@ Behavorial patterns
 
 Structural patterns
 
-	This design patterns is all about Class and Object composition.
-	Structural class-creation patterns use inheritance to compose interfaces.
-	Structural object-patterns define ways to compose objects to obtains new
-	functionality.
+	In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
 	Adapter:
 		Match interfaces of different classes.
@@ -79,11 +74,7 @@ Structural patterns
 
 Creational patterns
 
-	In software engineering, creational design patterns are design patterns that deal
-	with object creation mechanisms, trying to create objects in a manner suitable to the
-	situation. The basic form of object creation could result in design problems or added
-	complexity to the design. Creational design patterns solve this problem by somehow
-	controlling this object creation.
+	In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
 
 	Abstract Factory:
 		Creates an instance of several families of classes.
