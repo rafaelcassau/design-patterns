@@ -3,104 +3,78 @@ Play design patterns
 
 
 https://sourcemaking.com/design_patterns/
+https://www.udemy.com/python-design-patterns/
 
 
-Behavorial patterns
+Creational Patterns
+	Separate system from how its objects are created and composed
+	Explicitly express which concrete classes the system uses
+	Hide how instances of these concrete classes are created and combined
+	
+	Factory
 
-	In software engineering, behavioral design patterns are design patterns that identify
-	common communication patterns between objects and realize these patterns. By doing so,
-	these patterns increase flexibility in carrying out this communication.
+	Abstract Factory
 
-	Chain of responsability: 
-		A way of passing a request between a chain of objects.
+	Builder
 
-	Command:
-		Encapsulate a command request as an object.
+	Prototype
 
-	Interpreter:
-		A way to include language elements in a program.
-
-	Iterator:
-		Sequentially access the elements in a program.
-
-	Mediator:
-		Defines simplified communication between classes.
-
-	Memento:
-		Capture and restore an object's internal state.
-
-	Null Object:
-		Designed to act as a default value of an object.
-
-	Observer:
-		A way to notifying change to a number of classes.
-
-	State:
-		Alter an object's behavior when it's state changes.
-
-	Strategy:
-		Encapsulate an algorithm inside a class.
-
-	Template Method:
-		Defer the exact steps of an algorithm to a subclass.
-
-	Visitor:
-		Defines a new operation to a class without change.
+	Singleton versus Borg
 
 
-Structural patterns
+Structural Patterns
+	Looks for a simple way to realize relationships between entities
+	Structure refers to a composition of classes or objects
 
-	In Software Engineering, Structural Design Patterns are Design Patterns that ease
-	the design by identifying a simple way to realize relationships between entities.
+	MVC (Model-View-Controller)
 
-	Adapter:
-		Match interfaces of different classes.
+	Façade
 
-	Bridge:
-		Separates an object's interface from it's implementation.
+	Proxy
 
-	Composite:
-		A tree structure of simple and composite objects.
+	Decorator
 
-	Decorator:
-		Add responsibilities to objects dynamically.
-
-	Façade:
-		A single class that represents an entire subsystem.
-
-	Flyweight:
-		A fine-grained instance used for efficient sharing.
-
-	Private Class Data:
-		Restricts acessor/mutator access.
-
-	Proxy:
-		An object representing another object.
+	Adapter
 
 
-Creational patterns
+Behavioural
+	Identity and realise common communication patterns between objects
+	To do with assignment of responsability between objects
+	Encapsulate behaviour in a object and delegate to it
 
-	In software engineering, creational design patterns are design patterns that deal
-	with object creation mechanisms, trying to create objects in a manner suitable to the
-	situation. The basic form of object creation could result in design problems or added
-	complexity to the design. Creational design patterns solve this problem by somehow
-	controlling this object creation.
+	Command
 
-	Abstract Factory:
-		Creates an instance of several families of classes.
+	Interpreter
 
-	Builder:
-		Separates object construction from its representation.
+	State
 
-	Factory Method:
-		Creates an instance of several derived classes.
+	Chain of responsability
 
-	Object Pool:
-		Avoid expensive acquisition and release of resources by recycling objects that are
-		no longer is use.
+	Strategy
 
-	Prototype:
-		A fully initialized instance to be copied or cloned.
+	Observer
 
-	Singleton:
-		A class of which only a single instance can exist.
+	Memento
+
+	Template
+
+	Reactive design patterns
+
+
+Python buitin patterns
+
+	Iterables and Iterators
+		The iterator pattern aims to provide a way to access
+		the elements of an aggregate object sequentially without
+		exposing its underlying representation
+
+	List comprehension
+		A list comprehension is a tool for transforming any iterable into a new list.
+		Elements of the iterable can be conditionally included and transformed as required.
+
+	Wrapper functions (or decorators)
+		A decorator is a function that takes another function and extends the behaviour of
+		the second function without explicitly modifying it
+		Can be reused across multiple functions (but does no apply to classes)
+		Functions are first-class objects, which means they can be defined in a 
+		returned by other functions.
