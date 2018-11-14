@@ -12,8 +12,13 @@ Creational Patterns
 	Hide how instances of these concrete classes are created and combined
 	
 	Factory
+		A factory pattern defines a interface for creating an 
+		object, but defer object instantiation to run time.
 
 	Abstract Factory
+		Provide an interface for creating
+		families of related objects without 
+		specifying their concrete classes.
 
 	Builder
 
