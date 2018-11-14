@@ -15,6 +15,8 @@ Creational Patterns
 		A factory pattern defines a interface for creating an 
 		object, but defer object instantiation to run time.
 
+		https://refactoring.guru/design-patterns/factory-method
+
 	Abstract Factory
 		Provide an interface for creating
 		families of related objects without 
