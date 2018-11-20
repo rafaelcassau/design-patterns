@@ -22,6 +22,8 @@ Creational Patterns
 		families of related objects without 
 		specifying their concrete classes.
 
+		https://refactoring.guru/design-patterns/abstract-factory
+
 	Builder
 
 	Prototype

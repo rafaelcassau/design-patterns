@@ -1,6 +1,8 @@
 from random import randint
 
 
+# buttons
+
 class ButtonInterface:
     """
     The Factory Method pattern is applicable only when there is a products hierarchy.
@@ -16,28 +18,26 @@ class ButtonInterface:
 class WindowsButton(ButtonInterface):
 
     def render(self):
-        # Create and render a Windows looking button.
         print("TKInter (Test Button)")
         self.on_click()
 
     def on_click(self):
-        # Bind a native OS click event.
         print("WINDOWS -> Button says - 'Hello World!'")
 
 
 class HTMLButton(ButtonInterface):
 
     def render(self):
-        # Return an HTML representation of a button.
         print("<button>Test Button</button>")
         self.on_click()
 
     def on_click(self):
-        # Bind a web browser click event.
         print("HTML -> Click! Button says - 'Hello World!'")
 
 
-class AbstractDialog:
+# dialogs factory methods
+
+class AbstractDialogFactoryMethod:
     """
     Base factory class. Note that the "factory" is merely a role
     for the class. It should have some core business logic which
@@ -54,7 +54,7 @@ class AbstractDialog:
         raise NotImplementedError
 
 
-class WindowsDialog(AbstractDialog):
+class WindowsDialogFactoryMethod(AbstractDialogFactoryMethod):
     """
     Concrete factories extend that method to produce different
     kinds of products.
@@ -63,7 +63,7 @@ class WindowsDialog(AbstractDialog):
         return WindowsButton()
 
 
-class WebDialog(AbstractDialog):
+class WebDialogFactoryMethod(AbstractDialogFactoryMethod):
     """
     Concrete factories extend that method to produce different
     kinds of products.
@@ -71,6 +71,8 @@ class WebDialog(AbstractDialog):
     def create_button(self):
         return HTMLButton()
 
+
+# client application
 
 class ClientApplication:
 
@@ -80,9 +82,9 @@ class ClientApplication:
     def configure(self):
         number = randint(1, 10)
         if number % 2 == 0:
-            self.dialog = WindowsDialog()
+            self.dialog = WindowsDialogFactoryMethod()
         else:
-            self.dialog = WebDialog()
+            self.dialog = WebDialogFactoryMethod()
 
     def run_business_logic(self):
         self.dialog.render_window()
