@@ -25,7 +25,11 @@ Creational Patterns
 		https://refactoring.guru/design-patterns/abstract-factory
 
 	Builder
+		Separate the construction of a complex object
+		from its representation so that the same construction
+		process can create different representations
 
+		https://refactoring.guru/design-patterns/builder
 	Prototype
 
 	Singleton versus Borg
