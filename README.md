@@ -6,32 +6,34 @@ https://sourcemaking.com/design_patterns/
 https://www.udemy.com/python-design-patterns/
 
 
-Creational Patterns
-	Separate system from how its objects are created and composed
-	Explicitly express which concrete classes the system uses
-	Hide how instances of these concrete classes are created and combined
+Creational Design Patterns
+	Creational design patterns are responsible for efficient object creation mechanisms,
+	which increase the flexibility and reuse of existing code.
 	
 	Factory
-		A factory pattern defines a interface for creating an 
-		object, but defer object instantiation to run time.
+		is a creational design pattern that provides an interface
+		for creating objects in superclass, but allow subclasses to alter
+		the type of objects that will be created.
 
 		https://refactoring.guru/design-patterns/factory-method
 
 	Abstract Factory
-		Provide an interface for creating
-		families of related objects without 
-		specifying their concrete classes.
+		Is a creational design pattern that lets you produce
+		families of related objects without specifying their concrete classes.
 
 		https://refactoring.guru/design-patterns/abstract-factory
 
 	Builder
-		Separate the construction of a complex object
-		from its representation so that the same construction
-		process can create different representations
+		Is a creational design pattern that lets you produce different
+		types and representations of an object using the same building process.
+		Builder allows constructing complex objects step by step.
 
 		https://refactoring.guru/design-patterns/builder
 	Prototype
+		Is a creational design pattern that lets you produce new objects
+		by copying existing ones without compromising their internals.
 
+		https://refactoring.guru/design-patterns/prototype
 	Singleton versus Borg
 
 

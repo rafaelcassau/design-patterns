@@ -2,6 +2,7 @@
 A factory pattern defines a interface for creating an 
 object, but defer object instantiation to run time.
 """
+
 # abstract class (Interface)
 class ShapeInterface:
 
