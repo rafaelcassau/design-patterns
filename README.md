@@ -34,7 +34,10 @@ Creational Design Patterns
 		by copying existing ones without compromising their internals.
 
 		https://refactoring.guru/design-patterns/prototype
-	Singleton versus Borg
+	Singleton
+
+
+	Borg
 
 
 Structural Patterns
