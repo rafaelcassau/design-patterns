@@ -29,16 +29,19 @@ Creational Design Patterns
 		Builder allows constructing complex objects step by step.
 
 		https://refactoring.guru/design-patterns/builder
+
 	Prototype
 		Is a creational design pattern that lets you produce new objects
 		by copying existing ones without compromising their internals.
 
 		https://refactoring.guru/design-patterns/prototype
+
 	Singleton
 		Is a creational design pattern that lets you ensure that a class has 
 		only one instance and provide a global access point to this instance.
 
 		https://refactoring.guru/design-patterns/singleton
+
 	Borg
 		The Borg Idiom (a.k.a monostate pattern) lets a class have as many
 		instances as one likes, but ensures that they all share the same state. 
