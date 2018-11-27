@@ -35,9 +35,13 @@ Creational Design Patterns
 
 		https://refactoring.guru/design-patterns/prototype
 	Singleton
+		Is a creational design pattern that lets you ensure that a class has 
+		only one instance and provide a global access point to this instance.
 
-
+		https://refactoring.guru/design-patterns/singleton
 	Borg
+		The Borg Idiom (a.k.a monostate pattern) lets a class have as many
+		instances as one likes, but ensures that they all share the same state. 
 
 
 Structural Patterns
