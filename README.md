@@ -4,6 +4,8 @@ Play design patterns
 
 https://sourcemaking.com/design_patterns/
 https://www.udemy.com/python-design-patterns/
+https://refactoring.guru/design-patterns/
+https://python-3-patterns-idioms-test.readthedocs.io
 
 
 Creational Design Patterns
