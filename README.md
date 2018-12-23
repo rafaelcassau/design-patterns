@@ -53,10 +53,9 @@ Structural Patterns
 	Looks for a simple way to realize relationships between entities
 	Structure refers to a composition of classes or objects
 
-	MVC (Model-View-Controller)
-
-	Façade
-
+	Facade
+		Is a structural design pattern that provides a simplified interface
+		to a library, a framework, or any complex set of classes.
 	Proxy
 
 	Decorator
