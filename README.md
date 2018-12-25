@@ -9,8 +9,8 @@ https://python-3-patterns-idioms-test.readthedocs.io
 
 
 Creational Design Patterns
-	Creational design patterns are responsible for efficient object creation mechanisms,
-	which increase the flexibility and reuse of existing code.
+	These patterns provide various object creation mechanisms, which
+	increase flexibility and reuse of existing code.
 	
 	Factory
 		is a creational design pattern that provides an interface
@@ -50,12 +50,14 @@ Creational Design Patterns
 
 
 Structural Patterns
-	Looks for a simple way to realize relationships between entities
-	Structure refers to a composition of classes or objects
+	These patterns explain how to assemble objects and classes into
+	larger structures, while keeping this structures flexible and efficient.
 
 	Facade
 		Is a structural design pattern that provides a simplified interface
 		to a library, a framework, or any complex set of classes.
+
+		https://refactoring.guru/design-patterns/facade
 	Proxy
 
 	Decorator
@@ -64,9 +66,8 @@ Structural Patterns
 
 
 Behavioural
-	Identity and realise common communication patterns between objects
-	To do with assignment of responsability between objects
-	Encapsulate behaviour in a object and delegate to it
+	These patterns are concerned with algorithms and the assignment
+	of responsabilities between objects.
 
 	Command
 
