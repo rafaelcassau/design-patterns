@@ -58,10 +58,19 @@ Structural Patterns
 		to a library, a framework, or any complex set of classes.
 
 		https://refactoring.guru/design-patterns/facade
+
 	Proxy
+		Is a structural design pattern that lets you provide a subsitute or
+		placeholder for another object. A proxy controls access to the original
+		object, allowing you to perform something either before or after the
+		request gets through to the original object.
 
 	Decorator
+		Is a structural design pattern that lets you attach new behaviors to
+		objects by placing these objects inside special wrapper objects that
+		contain the behaviors.
 
+		https://refactoring.guru/design-patterns/decorator
 	Adapter
 
 
