@@ -75,6 +75,10 @@ Structural Patterns
 		https://refactoring.guru/design-patterns/decorator
 
 	Adapter
+		Is a structural design pattern that allows objects with incompatible
+		interfaces to collaborate.
+
+		https://refactoring.guru/design-patterns/adapter
 
 
 Behavioural
