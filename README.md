@@ -80,6 +80,18 @@ Structural Patterns
 
 		https://refactoring.guru/design-patterns/adapter
 
+	Bridge
+		Is a structural design pattern that lets you split a large class or a set
+		of closely related classes into two separate hierarchies - abstraction and
+		implementation - which can be developed independently of each other.
+
+		https://refactoring.guru/design-patterns/bridge
+
+	Composite
+
+
+	Flyweight
+
 
 Behavioural
 	These patterns are concerned with algorithms and the assignment
