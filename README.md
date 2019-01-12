@@ -88,8 +88,12 @@ Structural Patterns
 		https://refactoring.guru/design-patterns/bridge
 
 	Composite
+		Is a structural design pattern that lets you compose objects into tree
+		structures and when work with these structures as if they were individual
+		objects.
 
-
+		https://refactoring.guru/design-patterns/composite
+	
 	Flyweight
 
 
