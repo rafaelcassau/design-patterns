@@ -2,10 +2,11 @@
 Play design patterns
 
 
-https://sourcemaking.com/design_patterns/
-https://www.udemy.com/python-design-patterns/
+* Design pattern book https://sourcemaking.com/design_patterns/
+* Udemy course https://www.udemy.com/python-design-patterns/
+* Refactoring-guru 
 https://refactoring.guru/design-patterns/
-https://python-3-patterns-idioms-test.readthedocs.io
+* Python examples https://python-3-patterns-idioms-test.readthedocs.io
 
 
 Creational Design Patterns
@@ -17,32 +18,32 @@ Creational Design Patterns
 		for creating objects in superclass, but allow subclasses to alter
 		the type of objects that will be created.
 
-		https://refactoring.guru/design-patterns/factory-method
+		(https://refactoring.guru/design-patterns/factory-method)
 
 	Abstract Factory
 		Is a creational design pattern that lets you produce
 		families of related objects without specifying their concrete classes.
 
-		https://refactoring.guru/design-patterns/abstract-factory
+		(https://refactoring.guru/design-patterns/abstract-factory)
 
 	Builder
 		Is a creational design pattern that lets you produce different
 		types and representations of an object using the same building process.
 		Builder allows constructing complex objects step by step.
 
-		https://refactoring.guru/design-patterns/builder
+		(https://refactoring.guru/design-patterns/builder)
 
 	Prototype
 		Is a creational design pattern that lets you produce new objects
 		by copying existing ones without compromising their internals.
 
-		https://refactoring.guru/design-patterns/prototype
+		(https://refactoring.guru/design-patterns/prototype)
 
 	Singleton
 		Is a creational design pattern that lets you ensure that a class has 
 		only one instance and provide a global access point to this instance.
 
-		https://refactoring.guru/design-patterns/singleton
+		(https://refactoring.guru/design-patterns/singleton)
 
 	Borg
 		The Borg Idiom (a.k.a monostate pattern) lets a class have as many
@@ -57,7 +58,7 @@ Structural Patterns
 		Is a structural design pattern that provides a simplified interface
 		to a library, a framework, or any complex set of classes.
 
-		https://refactoring.guru/design-patterns/facade
+		(https://refactoring.guru/design-patterns/facade)
 
 	Proxy
 		Is a structural design pattern that lets you provide a subsitute or
@@ -65,20 +66,20 @@ Structural Patterns
 		object, allowing you to perform something either before or after the
 		request gets through to the original object.
 
-		https://refactoring.guru/design-patterns/proxy
+		(https://refactoring.guru/design-patterns/proxy)
 
 	Decorator
 		Is a structural design pattern that lets you attach new behaviors to
 		objects by placing these objects inside special wrapper objects that
 		contain the behaviors.
 
-		https://refactoring.guru/design-patterns/decorator
+		(https://refactoring.guru/design-patterns/decorator)
 
 	Adapter
 		Is a structural design pattern that allows objects with incompatible
 		interfaces to collaborate.
 
-		https://refactoring.guru/design-patterns/adapter
+		(https://refactoring.guru/design-patterns/adapter)
 
 	Bridge
 		Is a structural design pattern that lets you split a large class or a set
@@ -92,14 +93,14 @@ Structural Patterns
 		structures and when work with these structures as if they were individual
 		objects.
 
-		https://refactoring.guru/design-patterns/composite
+		(https://refactoring.guru/design-patterns/composite)
 	
 	Flyweight
 		Is a structural design pattern that lets you fit more objects into the
 		available amount of RAM by sharing common parts of state between multiple
 		objects instead of keeping all of the data in each object.
 
-		https://refactoring.guru/design-patterns/flyweight
+		(https://refactoring.guru/design-patterns/flyweight)
 
 
 Behavioural
@@ -112,7 +113,7 @@ Behavioural
 		lets you parametrize methods with different requests, delay or queue a
 		request's execution, and support undoable operations.
 
-		https://refactoring.guru/design-patterns/command
+		(https://refactoring.guru/design-patterns/command)
 
 	Interpreter
 
