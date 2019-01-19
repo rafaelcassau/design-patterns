@@ -107,6 +107,12 @@ Behavioural
 	of responsabilities between objects.
 
 	Command
+		Is a behavioral design pattern that turns a request into stand-alone
+		object that contains all information about the request. This transformation
+		lets you parametrize methods with different requests, delay or queue a
+		request's execution, and support undoable operations.
+
+		https://refactoring.guru/design-patterns/command
 
 	Interpreter
 

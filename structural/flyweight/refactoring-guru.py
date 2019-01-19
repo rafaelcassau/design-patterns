@@ -122,7 +122,7 @@ class Demo:
     def run(self) -> None:
         forest: Forest = Forest()
 
-        for _ in range(1, self.TREES_TO_DRAW):
+        for _ in range(1, self.TREES_TO_DRAW // self.TREE_TYPES):
             forest.plant_tree(
                 randint(0, self.CANVAS_SIZE),
                 randint(0, self.CANVAS_SIZE),
