@@ -103,7 +103,7 @@ Structural Patterns
 		(https://refactoring.guru/design-patterns/flyweight)
 
 
-Behavioural
+Behavioral
 	These patterns are concerned with algorithms and the assignment
 	of responsabilities between objects.
 
@@ -116,6 +116,8 @@ Behavioural
 		(https://refactoring.guru/design-patterns/command)
 
 	Interpreter
+		Denife a grammatical representation for a language
+		and an interpreter to interpret the gramar.
 
 	State
 
