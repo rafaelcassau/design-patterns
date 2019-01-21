@@ -116,10 +116,15 @@ Behavioral
 		(https://refactoring.guru/design-patterns/command)
 
 	Interpreter
-		Denife a grammatical representation for a language
-		and an interpreter to interpret the gramar.
+		Is a behavioral design pattern that denife a grammatical representation
+		for a language and an interpreter to interpret the gramar.
 
 	State
+		Is a behavioral design pattern that lets an object alter its behavior
+		when its internal state changes. It appears as if the object changed
+		its class.
+
+		(https://refactoring.guru/design-patterns/state)
 
 	Chain of responsability
 
