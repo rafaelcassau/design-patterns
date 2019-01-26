@@ -127,15 +127,21 @@ Behavioral
 		(https://refactoring.guru/design-patterns/state)
 
 	Chain of responsability
-		is a behavioral design pattern that lets you pass requests along
+		Is a behavioral design pattern that lets you pass requests along
 		a chain of handlers. Upon receiving a request, each handler decides
 		either to process the request or to pass it to the next handler in
 		the chain.
 
 		(https://refactoring.guru/design-patterns/chain-of-responsibility)
-	Strategy
 
 	Observer
+		Is a behavioral design pattern that lets you define a subscription
+		mechanism to notify multiple objects about any events that happen to
+		the object they're observing.
+
+		(https://refactoring.guru/design-patterns/observer)
+
+	Strategy
 
 	Memento
 
