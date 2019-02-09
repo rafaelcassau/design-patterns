@@ -21,6 +21,7 @@ class Dot(Shape):
         self._y = y
 
     def accept(self, visitor: "Visitor"):
+        # double dispach
         return visitor.visit_dot(self)
 
     def move(self, x: int, y: int) -> None:
@@ -48,6 +49,7 @@ class Circle(Shape):
         self._radius = radius
 
     def accept(self, visitor: "Visitor") -> str:
+        # double dispach
         return visitor.visit_circle(self)
 
     def move(self, x: int, y: int) -> None:
@@ -79,6 +81,7 @@ class Rectangle(Shape):
         self._height = height
 
     def accept(self, visitor: "Visitor") -> str:
+        # double dispach
         return visitor.visit_rectangle(self)
 
     def move(self, x: int, y: int) -> None:
@@ -110,6 +113,7 @@ class CompoundShape(Shape):
         self._children: typing.List[Shape] = []
 
     def accept(self, visitor: "Visitor") -> str:
+        # double dispach
         return visitor.visit_compound_shape(self)
 
     def move(self, x: int, y: int) -> None:
