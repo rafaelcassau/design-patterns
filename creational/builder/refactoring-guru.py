@@ -211,7 +211,7 @@ class Engine:
         return self.is_started
 
     def go(self, mileage):
-        if started:
+        if self.started:
             self.mileage += mileage
         else:
             print('Cannot go(), you must start engine first!')
